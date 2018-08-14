@@ -1,28 +1,33 @@
-.btn-blue {
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 30vw;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 10vh;
 }
 
 .btn {
   flex: 1 1 auto;
   margin: 10px;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: black;
- /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
  }
 
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+.btn-1 {
+  background-image: linear-gradient(to left, #C7EAE4 0%, #A7E8BD 25%, #FCBCB8 50%, #EFA7A7 75%, #FFD972 100%);
+}
 .btn:hover {
   background-position: right center; /* change the direction of the change here */
 }

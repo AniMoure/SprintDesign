@@ -1,0 +1,11 @@
+.img_avatar {
+  display: block;
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.avatar_img:hover {
+  transform: scale(1.25);
+}

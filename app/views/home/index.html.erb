@@ -1,30 +1,86 @@
 <!DOCTYPE html>
-<head>
-	<meta charset="UTF-8">
-	<title>SprintDesign</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
-</head>
-<body>
-	<!-- Header -->
-	<header>
-		<div class="container">
-			<!-- Logo and Site Name -->
-			<div class="logo">
-					<h1>SOME <span>TEXT</span></h1>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SprintDesign</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!-- Header -->
+		<header>
+			<div class="navbar">
+				<!-- Name of the site, you can put your logo here -->
+				<div class="logo">
+					<h1>SprintDesign</h1>
+				</div>
+				<!-- Buttons -->
+				<div class="buttons">
+	  			<a class="btn btn-1 center">Some Text</a>
+	  			<a class="btn btn-1 center">Some Text</a>
+	  			<a class="btn btn-1 center">Some Text</a>
+	    	</div>
+				<!-- Personal Info -->
+				<div class="name">
+					<a href="https://github.com/AniMoure">Anisoara</a>
+				</div>
+				<div class="info">
+					<a href="https://github.com/AniMoure"><img class="img_avatar" src="img/avatar.png" alt="avatar"></a>
+				</div>
 			</div>
-			<!-- Buttons -->
-			<div class="btn-blue">
-  			<a class="btn btn-1">Hover me</a>
-  			<a class="btn btn-1">Hover me</a>
-  			<a class="btn btn-1">Hover me</a>
-    	</div> 
-			<!-- Personal Info -->
-    	<div class="personal">
-    		<a href="https://github.com/AniMoure">Anisoara</a>
-    		<%= link_to image_tag('avatar.png', :class => "avatar_img", :alt => "Avatar"), "https://github.com/AniMoure", target: :_blank %>
-    	</div>
+				<!-- End of navbar -->
+		</header>
+
+		<!-- Content -->
+		<section class="about">
+			<div class="content">
+				<div class="parag elem">
+					<h3><strong>Miss Click</strong>, Designer UX, UI</h3>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque odit facilis cumque unde voluptatem, dolor expedita et optio repellendus, deserunt necessitatibus aut corporis vel similique dolore nostrum fuga culpa laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, quia similique commodi culpa nostrum voluptatibus. Quas tempore laudantium, error, neque debitis, blanditiis fugiat corporis quam, eligendi aspernatur mollitia magnam quasi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor blanditiis mollitia vel repellendus, saepe voluptatibus perferendis sunt animi iusto illum ullam, deserunt qui est consequuntur, molestias assumenda quos cum accusamus?</p>
+					<ul>
+						<li>Nom: Miss Click</li>
+						<li>E-mail: <a href="mailto:miss@click.com">miss@click.com</a></li>
+						<li>Telephone: +33(6) 123 45 678</li>
+					</ul>
+					<div class="social-networks">
+						<a href="https://github.com/AniMoure"><img src="img/github2.svg" alt="github"></a><!--
+         --><a href="https://twitter.com/Anisoar64561804"><img src="img/twitter2.svg" alt="twitter2"></a>
+					</div>
+				</div>
+	 			<div class="image elem">
+	 				<img class="picture" src="img/photo.jpg" alt="photo">
+	 			</div>
+			</div>
+		</section>
+		<!-- Realisations -->
+
+		<div class="contenu">
+			<h2 id="cards">Some text here</h2>
+				<div class="hover column">
+					<div>
+						<figure><img src="img/img_avatar1.png" /></figure>
+						<span>Jane Doe - Architect</span>
+					</div>
+					<div>
+						<figure><img src="img/img_avatar3.png" /></figure>
+						<span>John Doe - Designer</span>
+					</div>
+					<div>
+						<figure><img src="img/img_avatar2.png" /></figure>
+						<span>Janine Doe - WebDev</span>
+					</div>
+				</div>
 		</div>
 
-	</header>
-</body>
+		<!-- Footer -->
+  	<footer>
+	    <div class="footer">
+	      <p>Copyright Miss Click - All Rights Reserved</p>
+	      <ul>
+	        <li><a href="https://github.com/AniMoure">Github</a></li>
+	        <li><a href="https://twitter.com/Anisoar64561804">Twitter</a></li>
+	      </ul>
+	    </div>
+  	</footer>
+	</body>
 </html>
