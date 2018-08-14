@@ -1,24 +1,21 @@
-# README
+# Thank you for taking the time to view my project!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# How to install and test?
+#### Download or clone the repository
+```sh
+$ git clone https://github.com/AniMoure/SprintDesign
+```
+#### Run the command to install the necessary gems
+```sh
+$ bundle install
+```
 
-Things you may want to cover:
+#### Run the command to view it on your localhost:3000
+```sh
+$ rails s
+```
+#### You can view the final result by following this link:
 
-* Ruby version
+https://sprintdesign.herokuapp.com
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Enjoy!
