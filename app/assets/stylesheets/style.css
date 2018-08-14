@@ -1,0 +1,7 @@
+@import url("components/button.css");
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f3f3f3;
+	margin: 0;
+}
