@@ -28,10 +28,3 @@
 .btn-1 {
   background-image: linear-gradient(to left, #C7EAE4 0%, #A7E8BD 25%, #FCBCB8 50%, #EFA7A7 75%, #FFD972 100%);
 }
-.btn:hover {
-  background-position: right center; /* change the direction of the change here */
-}
-
-.btn-1 {
-  background-image: linear-gradient(to right, #C7EAE4 0%, #A7E8BD 25%, #FCBCB8 50%, #EFA7A7 75%, #FFD972 100%);
-}
