@@ -15,16 +15,16 @@
 				</div>
 				<!-- Buttons -->
 				<div class="buttons">
-	  			<a class="btn btn-1 center">Some Text</a>
-	  			<a class="btn btn-1 center">Some Text</a>
-	  			<a class="btn btn-1 center">Some Text</a>
-	    	</div>
+					<%= button_to "Home", "https://sprintdesign.herokuapp.com", :method => :get, form: {target: '_blank'}, :class => "btn btn-1 center" %>
+					<%= button_to "Link2", "https://sprintdesign.herokuapp.com", :method => :get, form: {target: '_blank'}, :class => "btn btn-1 center" %>
+					<%= button_to "Link3", "https://sprintdesign.herokuapp.com", :method => :get, form: {target: '_blank'}, :class => "btn btn-1 center" %>
+	    		</div>
 				<!-- Personal Info -->
 				<div class="name">
 					<a href="https://github.com/AniMoure">Anisoara</a>
 				</div>
 				<div class="info">
-					<a href="https://github.com/AniMoure"><img class="img_avatar" src="../../../images/avatar.png" alt="avatar"></a>
+					<%= link_to image_tag('avatar.png', :class => "img_avatar", :alt => "Octodex Cat"), "https://github.com/AniMoure" %>
 				</div>
 			</div>
 				<!-- End of navbar -->
@@ -42,12 +42,12 @@
 						<li>Telephone: +33(6) 123 45 678</li>
 					</ul>
 					<div class="social-networks">
-						<a href="https://github.com/AniMoure"><img src="img/github2.svg" alt="github"></a><!--
-         --><a href="https://twitter.com/Anisoar64561804"><img src="img/twitter2.svg" alt="twitter2"></a>
+						<%= link_to image_tag('github2.svg', :alt => "Avatar Github"), "https://github.com/AniMoure" %>
+						<%= link_to image_tag('twitter2.svg', :alt => "Avatar Twitter"), "https://twitter.com/Anisoar64561804" %>
 					</div>
 				</div>
 	 			<div class="image elem">
-	 				<img class="picture" src="img/photo.jpg" alt="photo">
+	 				<%= image_tag('photo.jpg', :class => "picture") %>
 	 			</div>
 			</div>
 		</section>
@@ -57,15 +57,15 @@
 			<h2 id="cards">Some text here</h2>
 				<div class="hover column">
 					<div>
-						<figure><img src="img/img_avatar1.png" /></figure>
+						<figure><%= image_tag('img_avatar1.png') %></figure>
 						<span>Jane Doe - Architect</span>
 					</div>
 					<div>
-						<figure><img src="img/img_avatar3.png" /></figure>
+						<figure><%= image_tag('img_avatar3.png') %></figure>
 						<span>John Doe - Designer</span>
 					</div>
 					<div>
-						<figure><img src="img/img_avatar2.png" /></figure>
+						<figure><%= image_tag('img_avatar2.png') %></figure>
 						<span>Janine Doe - WebDev</span>
 					</div>
 				</div>

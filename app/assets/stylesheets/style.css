@@ -53,7 +53,7 @@ section {
 }
 
 .parag ul {
-	list-style: url('../img/puce.svg');
+	list-style: url('puce.svg');
 }
 
 .parag h3 {
